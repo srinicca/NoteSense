@@ -145,18 +145,6 @@ tolerance = 30           # Frequency tolerance (Hz)
 - **Display Range**: 100 Hz - 1000 Hz
 - **Note Range**: 130 Hz - 1046 Hz (C3 - C6)
 
-## File Structure
-
-```
-music_transcriber/
-├── music_transcriber.py    # Main application
-├── README.md              # This file
-├── requirements.txt       # Python dependencies
-└── sessions/             # Exported session data
-    ├── session_western_*.txt
-    └── session_hindustani_*.txt
-```
-
 ## Session Export Format
 
 Exported sessions contain:
